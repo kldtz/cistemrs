@@ -16,7 +16,7 @@ cistemrs = { git = "https://github.com/kldtz/cistemrs.git" }
 Split or segment tokens.
 
 ```rust
-use cistemrs::stem;
+use cistemrs::{stem, segment};
 
 let s = stem("schönes", false);
 assert_eq!(s, "schon");
