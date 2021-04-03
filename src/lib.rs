@@ -83,7 +83,6 @@ fn compute_end_offset(word: &str, mut num_chars: usize, upper: bool, case_insens
     // only 8-bit chars are replaced, so this is valid
     num_chars -= word.len() - repl.len();
 
-    //let mut num_chars = repl.chars().count();
     let mut end = word.len();
     // compute end offset
     while num_chars > 3 {
